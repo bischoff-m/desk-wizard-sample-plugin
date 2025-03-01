@@ -2,7 +2,7 @@
 	"name": "desk-wizard-sample-plugin",
 	"version": "1.0.0",
 	"description": "This is a sample plugin for DeskWizard",
-	"main": "main.js",
+	"main": "out/main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit && node esbuild.config.mjs production",
@@ -12,6 +12,7 @@
 	"author": "",
 	"license": "MIT",
 	"dependencies": {
+		"desk-wizard": "file:../desk-wizard",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0"
 	},
