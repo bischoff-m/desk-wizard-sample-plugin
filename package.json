@@ -3,11 +3,7 @@
 	"version": "1.0.0",
 	"description": "This is a sample plugin for DeskWizard",
 	"main": "out/main.js",
-	"scripts": {
-		"dev": "node esbuild.config.mjs",
-		"build": "tsc -noEmit && node esbuild.config.mjs production",
-		"version": "node version-bump.mjs && git add manifest.json versions.json"
-	},
+	"scripts": {},
 	"keywords": [],
 	"author": "",
 	"license": "MIT",
